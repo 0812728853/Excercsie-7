@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excercise 1</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      border: 1px solid;
+      margin: 20px;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(8, 121, 251);
+      height: 50px;
+      align-items: center;
+      padding: 0 20px;
+      border-radius: 5px;
+    }
+    .header h3 {
+      color: white;
+      font-size: 25px;
+    }
+    .header button {
+      height: 30px;
+      width: 50px;
+      border-radius: 5px;
+      border: none;
+    }
+    .content {
+      display: flex;
+      padding: 0 10px;
+      margin-top: 10px;
+    }
+    .button1 {
+      width: 1250px;
+      border: none;
+      border-bottom: 1px solid;
+    }
+    .button2 {
+      width: 100px;
+      height: 30px;
+      background-color: rgb(8, 121, 251);
+      border-radius: 5px;
+      border: none;
+      color: white;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .footer h3 {
+        background-color: rgb(247, 247, 247);
+        font-size: 30px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+    }
+    .footer div {
+        background-color: gray;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Task List</h3>
+        <button>Share</button>
+      </div>
+      <div class="content">
+        <p>New Task:</p>
+        <input class="button1"></input>
+        <button class="button2">Add Task</button>
+      </div>
+      <div class="footer">
+       <h3>Share Task List</h3>
+       <div>@ 2023 Task List App</div>
+      </div>
+
+    </div>
+  </body>
+</html>
